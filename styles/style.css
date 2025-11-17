@@ -153,7 +153,6 @@
 .save-button,
 .save-dialog__button {
   cursor: pointer;
-  transition: box-shadow 0.3s ease;
 }
 
 .card__icon-button:focus-visible,
@@ -161,7 +160,7 @@
 .save-button:focus-visible,
 .save-dialog__button:focus-visible {
   outline: none;
-  box-shadow: 2px 2px 0 0 var(--color-accent);
+  box-shadow: 2px 2px 0 var(--color-accent);
 }
 
 .card__icon-button {
@@ -188,6 +187,7 @@
 .card__like-button,
 .save-button,
 .save-dialog__button {
+  box-shadow: none;
   position: relative;
   overflow: hidden;
   border: 2px solid var(--color-accent);
@@ -195,7 +195,7 @@
   font-family: var(--font-family-accent), sans-serif;
   font-size: 14px;
   font-weight: var(--font-weight-body);
-  transition: color 0.5s ease-in-out;
+  transition: color 0.5s ease-in-out, box-shadow 0.3s ease;
 }
 
 .card__like-button::after,

@@ -30,4 +30,7 @@
     --dialog-padding-inline: clamp(1.875rem, 3.1831rem + -2.3803vi, 2.625rem);
     --dialog-icon-size: 39px;
     --dialog-gap: 30px;
+
+    --contour-color: black;
+    --animation-fill-color: red;
 }
