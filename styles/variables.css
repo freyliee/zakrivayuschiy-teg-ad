@@ -1,1 +1,15 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+:root {
+    --font-family-base: 'Inter';
+    --font-family-accent: 'Press Start';
+    --font-weight-heading: 700;
+    --font-size-base: 18px;
+    --font-weight-body: 400;
+    --text-color-heading: black;
+    --text-color-body: black;
+    --color-primary: white;
+    --color-accent: black;
+    --text-color-accent: white;
+    --transition-hover: ;
+    --stroke-color: white;
+}
